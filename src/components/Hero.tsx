@@ -12,8 +12,8 @@ const Hero = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-dorama-purple">
             Você ama doramas, mas está cansada de assistir sozinha?
           </h2>
-          <p className="text-lg mb-6 text-gray-700 md:text-lg">
-            Entre para o <span className="italic font-medium">Clube das Dorameiras</span> — o único espaço criado para mulheres intensas que querem <span className="font-bold">recomendações que tocam</span> e <span className="font-bold">amizades que entendem de verdade o surto emocional de cada episódio</span>.
+          <p className="text-lg md:text-xl mb-6 text-gray-700">
+            Entre para o <span className="italic font-medium">Clube do Dorama</span> — o único espaço criado para mulheres intensas que querem <span className="font-bold">recomendações que tocam</span> e <span className="font-bold">amizades que entendem de verdade o surto emocional de cada episódio</span>.
           </p>
           <p className="text-lg md:text-xl mb-8 text-gray-700">
             Aqui, você pode sentir sem medo e pertencer sem se explicar.
