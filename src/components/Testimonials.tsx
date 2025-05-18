@@ -1,9 +1,6 @@
-
 import React from 'react';
-
 const Testimonials = () => {
-  return (
-    <section className="bg-dorama-soft-bg py-16" id="depoimentos">
+  return <section id="depoimentos" className="bg-dorama-soft-bg ">
       <div className="section-container">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-dorama-purple">
@@ -55,8 +52,6 @@ const Testimonials = () => {
           </a>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Testimonials;
