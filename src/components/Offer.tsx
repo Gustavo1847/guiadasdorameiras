@@ -1,9 +1,6 @@
-
 import React from 'react';
-
 const Offer = () => {
-  return (
-    <section className="bg-white py-16" id="oferta">
+  return <section id="oferta" className="bg-white ">
       <div className="section-container">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
@@ -90,8 +87,6 @@ const Offer = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Offer;
