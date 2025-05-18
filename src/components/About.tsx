@@ -15,8 +15,12 @@ const About = () => {
           <div className="bg-white rounded-3xl shadow-md p-8 border border-dorama-light-purple/20 mb-12">
             <div className="flex flex-col md:flex-row items-center gap-8 mb-6">
               <div className="md:w-1/3 flex-shrink-0">
-                <div className="w-48 h-48 mx-auto rounded-full bg-gradient-to-r from-dorama-purple to-dorama-pink flex items-center justify-center text-white text-5xl overflow-hidden">
-                  <span>BB</span>
+                <div className="md:w-1/3 flex-shrink-0">
+                  <img
+                    src="/Foto-Bruna.jpeg"
+                    alt="Bruna Bohn"
+                    className="w-48 h-48 mx-auto rounded-full object-cover border-4 border-dorama-light-purple/20 shadow-md"
+                  />
                 </div>
               </div>
               

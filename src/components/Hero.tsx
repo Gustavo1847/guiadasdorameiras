@@ -29,7 +29,7 @@ const Hero = () => {
           </a>
           
           <p className="text-gray-600 italic">
-            Acesso por apenas R$67 por ano
+            Acesso por apenas R$67 por 6 meses
             <br />
             <span className="text-dorama-purple font-medium">
               Com garantia amorosa de 30 dias 💜

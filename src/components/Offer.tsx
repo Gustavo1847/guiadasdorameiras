@@ -81,7 +81,7 @@ const Offer = () => {
               <p className="opacity-90 italic">Sem perguntas. Sem julgamentos. Só carinho.</p>
             </div>
             
-            <a href="#" className="bg-white text-dorama-purple font-bold py-4 px-8 rounded-full shadow-lg transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl inline-block">
+            <a href="https://pay.kiwify.com.br/NZHluog" className="bg-white text-dorama-purple font-bold py-4 px-8 rounded-full shadow-lg transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl inline-block">
               🎯 QUERO ENTRAR COM SEGURANÇA
             </a>
           </div>

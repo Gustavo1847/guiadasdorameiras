@@ -18,13 +18,13 @@ const Footer = () => {
               © {new Date().getFullYear()} Clube do Dorama. Todos os direitos reservados.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-white hover:text-dorama-light-pink transition-colors">
+              <a href="https://www.instagram.com/guiadasdorameiras/" className="text-white hover:text-dorama-light-pink transition-colors">
                 Instagram
               </a>
-              <a href="#" className="text-white hover:text-dorama-light-pink transition-colors">
+              <a href="wa.me/5583993559063" className="text-white hover:text-dorama-light-pink transition-colors">
                 WhatsApp
               </a>
-              <a href="#" className="text-white hover:text-dorama-light-pink transition-colors">
+              <a href="mailto:brunacostads@outlook.com" className="text-white hover:text-dorama-light-pink transition-colors">
                 E-mail
               </a>
             </div>

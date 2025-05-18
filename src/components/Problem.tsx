@@ -2,7 +2,7 @@ import React from 'react';
 const Problem = () => {
   return <section id="problema" className="bg-white ">
       <div className="section-container">
-        <h2 className="text-3xl md:text-4xl font-bold mb-8 text-dorama-purple text-center">
+        <h2 className="text-3xl md:text-4xl font-bold text-dorama-purple text-center">
           Você também sente que ninguém entende o quanto os doramas significam pra você?
         </h2>
         
