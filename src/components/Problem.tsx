@@ -1,9 +1,6 @@
-
 import React from 'react';
-
 const Problem = () => {
-  return (
-    <section className="bg-white py-16" id="problema">
+  return <section id="problema" className="bg-white ">
       <div className="section-container">
         <h2 className="text-3xl md:text-4xl font-bold mb-8 text-dorama-purple text-center">
           Você também sente que ninguém entende o quanto os doramas significam pra você?
@@ -46,8 +43,6 @@ const Problem = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Problem;
