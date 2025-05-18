@@ -1,9 +1,6 @@
-
 import React from 'react';
-
 const Product = () => {
-  return (
-    <section className="bg-gradient-to-b from-white to-dorama-soft-bg py-16" id="beneficios">
+  return <section id="beneficios" className="bg-gradient-to-b from-white to-dorama-soft-bg ">
       <div className="section-container">
         <div className="max-w-4xl mx-auto text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-dorama-purple">
@@ -79,8 +76,6 @@ const Product = () => {
           </a>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Product;
