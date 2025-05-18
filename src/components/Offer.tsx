@@ -65,11 +65,11 @@ const Offer = () => {
           
           <div className="bg-gradient-to-r from-dorama-purple to-dorama-pink rounded-3xl shadow-xl p-8 md:p-12 text-center text-white mb-16">
             <p className="text-xl mb-2">Valor Total Percebido: </p>
-            <p className="text-3xl font-bold mb-8 line-through opacity-75">R$692</p>
+            <p className="text-3xl font-bold mb-8 line-through opacity-75">R$297</p>
             
             <p className="text-xl mb-2">Mas você garante tudo isso por:</p>
             <p className="text-5xl font-bold mb-2">R$67</p>
-            <p className="text-2xl font-medium mb-6">por 1 ano inteiro</p>
+            <p className="text-2xl font-medium mb-6">por 6 meses</p>
             
             <p className="mb-8 opacity-90">
               Sem mensalidade. Sem pegadinhas. Só emoção e pertencimento real.
