@@ -1,9 +1,6 @@
-
 import React from 'react';
-
 const About = () => {
-  return (
-    <section className="bg-dorama-soft-bg py-16" id="sobre">
+  return <section id="sobre" className="bg-dorama-soft-bg ">
       <div className="section-container">
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-10">
@@ -46,8 +43,6 @@ const About = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;
