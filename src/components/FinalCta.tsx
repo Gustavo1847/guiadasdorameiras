@@ -1,9 +1,6 @@
-
 import React from 'react';
-
 const FinalCta = () => {
-  return (
-    <section className="py-16 bg-gradient-to-b from-white to-dorama-soft-bg">
+  return <section className=" bg-gradient-to-b from-white to-dorama-soft-bg">
       <div className="section-container">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-dorama-purple">
@@ -29,8 +26,6 @@ const FinalCta = () => {
           </a>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default FinalCta;
