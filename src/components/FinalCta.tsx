@@ -21,7 +21,7 @@ const FinalCta = () => {
             <p className="text-gray-700">Depois, sai do ar.</p>
           </div>
           
-          <a href="#" className="cta-button inline-block text-xl">
+          <a href="https://pay.kiwify.com.br/NZHluog" className="cta-button inline-block text-xl">
             💜 SIM! EU QUERO ENTRAR AGORA NO CLUBE DO DORAMA
           </a>
         </div>

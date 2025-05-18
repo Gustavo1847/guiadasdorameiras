@@ -24,7 +24,7 @@ const Hero = () => {
             Aqui, você pode sentir sem medo e pertencer sem se explicar.
           </p>
           
-          <a href="#oferta" className="cta-button inline-block mb-4">
+          <a href="https://pay.kiwify.com.br/NZHluog" className="cta-button inline-block mb-4">
             🎯 QUERO ENTRAR NO CLUBE AGORA
           </a>
           

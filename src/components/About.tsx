@@ -15,11 +15,11 @@ const About = () => {
           <div className="bg-white rounded-3xl shadow-md p-8 border border-dorama-light-purple/20 mb-12">
             <div className="flex flex-col md:flex-row items-center gap-8 mb-6">
               <div className="md:w-1/3 flex-shrink-0">
-                <div className="md:w-1/3 flex-shrink-0">
+                <div className="w-48 h-48 mx-auto overflow-hidden rounded-full border-4 border-dorama-light-purple/20 shadow-lg">
                   <img
                     src="/Foto-Bruna.jpeg"
                     alt="Bruna Bohn"
-                    className="w-48 h-48 mx-auto rounded-full object-cover border-4 border-dorama-light-purple/20 shadow-md"
+                    className="w-full h-full object-cover"
                   />
                 </div>
               </div>
@@ -41,7 +41,7 @@ const About = () => {
           </div>
           
           <div className="text-center">
-            <a href="#oferta" className="cta-button inline-block">
+            <a href="https://pay.kiwify.com.br/NZHluog" className="cta-button inline-block">
               🎯 QUERO FAZER PARTE DISSO
             </a>
           </div>

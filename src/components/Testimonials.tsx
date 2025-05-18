@@ -47,7 +47,7 @@ const Testimonials = () => {
           <p className="text-xl font-medium text-gray-700 mb-6">
             Você pode ser a próxima.
           </p>
-          <a href="#oferta" className="cta-button inline-block">
+          <a href="https://pay.kiwify.com.br/NZHluog" className="cta-button inline-block">
             🎯 QUERO PARTICIPAR
           </a>
         </div>

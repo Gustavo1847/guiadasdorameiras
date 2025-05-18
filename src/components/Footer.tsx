@@ -21,7 +21,7 @@ const Footer = () => {
               <a href="https://www.instagram.com/guiadasdorameiras/" className="text-white hover:text-dorama-light-pink transition-colors">
                 Instagram
               </a>
-              <a href="wa.me/5583993559063" className="text-white hover:text-dorama-light-pink transition-colors">
+              <a href="https://wa.me/5583993559063" className="text-white hover:text-dorama-light-pink transition-colors">
                 WhatsApp
               </a>
               <a href="mailto:brunacostads@outlook.com" className="text-white hover:text-dorama-light-pink transition-colors">
