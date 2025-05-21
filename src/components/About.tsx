@@ -41,7 +41,7 @@ const About = () => {
           </div>
           
           <div className="text-center">
-            <a href="https://pay.kiwify.com.br/NZHluog" className="cta-button inline-block">
+            <a href="https://pay.kiwify.com.br/58gF7DK" className="cta-button inline-block">
               🎯 QUERO FAZER PARTE DISSO
             </a>
           </div>

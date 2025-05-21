@@ -25,7 +25,7 @@ const Header = () => {
           </a>
         </div>
         <a 
-          href="https://pay.kiwify.com.br/NZHluog" 
+          href="https://pay.kiwify.com.br/58gF7DK" 
           className="bg-white text-dorama-purple px-4 py-2 rounded-full font-medium hover:bg-opacity-90 transition-all duration-200 transform hover:scale-105"
         >
           Quero Entrar

@@ -71,7 +71,7 @@ const Product = () => {
             </li>
           </ul>
           
-          <a href="https://pay.kiwify.com.br/NZHluog" className="cta-button inline-block">
+          <a href="https://pay.kiwify.com.br/58gF7DK" className="cta-button inline-block">
             🎯 ENTRAR AGORA
           </a>
         </div>
