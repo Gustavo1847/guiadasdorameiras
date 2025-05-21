@@ -26,7 +26,7 @@ const About = () => {
               
               <div className="md:w-2/3">
                 <p className="text-gray-700 mb-6">
-                  Bruna criou o Clube do Dorama após anos sentindo que precisava esconder seu lado emocional para ser levada a sério.
+                  Bruna criou o Clube das Dorameiras após anos sentindo que precisava esconder seu lado emocional para ser levada a sério.
                 </p>
                 
                 <blockquote className="border-l-4 border-dorama-pink pl-4 italic text-gray-700 mb-4">

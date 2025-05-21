@@ -10,7 +10,7 @@ const FinalCta = () => {
           <p className="text-xl text-gray-700 mb-6">
             Você sente demais pra assistir doramas sozinha.
             <br />
-            O Clube do Dorama é o espaço onde você pode rir, chorar, desabafar e pertencer — com quem realmente entende.
+            O Clube das Dorameiras é o espaço onde você pode rir, chorar, desabafar e pertencer — com quem realmente entende.
           </p>
           
           <div className="bg-white rounded-3xl shadow-lg p-6 border border-dorama-pink mb-10">
@@ -22,7 +22,7 @@ const FinalCta = () => {
           </div>
           
           <a href="https://pay.kiwify.com.br/NZHluog" className="cta-button inline-block text-xl">
-            💜 SIM! EU QUERO ENTRAR AGORA NO CLUBE DO DORAMA
+            💜 SIM! EU QUERO ENTRAR AGORA NO Clube das Dorameiras
           </a>
         </div>
       </div>

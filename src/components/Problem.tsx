@@ -38,7 +38,7 @@ const Problem = () => {
             </h3>
             <p>Esse espaço existe. E ele se chama:</p>
             <p className="text-3xl md:text-4xl font-bold text-dorama-purple mt-4 animate-heartbeat">
-              💌 Clube do Dorama
+              💌 Clube das Dorameiras
             </p>
           </div>
         </div>

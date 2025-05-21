@@ -4,7 +4,7 @@ const Product = () => {
       <div className="section-container">
         <div className="max-w-4xl mx-auto text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-dorama-purple">
-            📦 O Que é o Clube do Dorama
+            📦 O Que é o Clube das Dorameiras
           </h2>
           <p className="text-xl text-gray-700">
             Um espaço leve, íntimo e emocionalmente seguro — feito para mulheres que <span className="font-bold">sentem demais</span> ao assistir doramas.

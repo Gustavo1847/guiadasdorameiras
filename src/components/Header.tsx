@@ -7,7 +7,7 @@ const Header = () => {
       <div className="container mx-auto flex items-center justify-between px-4">
         <div className="flex items-center">
           <span className="text-white text-2xl font-display font-bold">
-            Clube do Dorama
+            Clube das Dorameiras
           </span>
         </div>
         <div className="hidden md:flex space-x-6">
