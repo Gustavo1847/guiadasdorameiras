@@ -6,8 +6,8 @@ const Hero = () => {
   return (
     <section className="bg-gradient-to-b from-dorama-soft-bg to-white">
       <div className="section-container flex flex-col items-center text-center">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-4 bg-gradient-to-r from-dorama-purple to-dorama-pink bg-clip-text text-transparent">
-          💜 Clube das Dorameiras
+        <h1 className="flex items-center text-4xl md:text-5xl lg:text-6xl font-extrabold mb-4 bg-gradient-to-r from-dorama-purple to-dorama-pink bg-clip-text text-transparent">
+          <img src="/favicon.png" alt="Clube das Dorameiras" className="w-20" />Clube das Dorameiras
         </h1>
         <h3 className="text-xl md:text-2xl font-medium text-gray-700 mb-8 max-w-2xl">
           "Chega de assistir doramas sozinha. Aqui, você é acolhida, entendida e tem com quem surtar."

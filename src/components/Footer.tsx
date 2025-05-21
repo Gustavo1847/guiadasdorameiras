@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto">
           <div className="mb-6 md:mb-0">
-            <h3 className="text-xl font-bold mb-2">Clube das Dorameiras</h3>
+            <h3 className="flex items-center text-xl font-bold mb-2"><img src="/favicon-white.png" alt="Clube das Dorameiras" className="w-5 mr-2" />Clube das Dorameiras</h3>
             <p className="text-sm opacity-80">
               Um espaço para mulheres que sentem demais.
             </p>
