@@ -10,29 +10,27 @@ const Hero = () => {
           <img src="/favicon.png" alt="Clube das Dorameiras" className="w-16" />Clube das Dorameiras
         </h1>
         <h3 className="text-xl md:text-2xl font-medium text-gray-700 mb-8 max-w-2xl">
-          "Chega de assistir doramas sozinha. Aqui, você é acolhida, entendida e tem com quem surtar."
+          "Chega de assistir e guardar tudo só pra você. Aqui, cada emoção é dividida."
         </h3>
         
         <div className="w-full max-w-4xl bg-white rounded-3xl shadow-xl p-8 mb-12 border border-dorama-light-purple/20">
+          <p className="text-lg md:text-xl mb-6 text-gray-700">Você termina um episódio e tudo o que queria era mandar um áudio desabafando... e ter alguém que te entenda.</p>
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-dorama-purple">
-            Você ama doramas, mas está cansada de assistir sozinha?
+            🌟 Bem-vinda ao Clube.
           </h2>
           <p className="text-lg md:text-xl mb-6 text-gray-700">
-            Entre para o <span className="italic font-medium">Clube das Dorameiras</span> — o único espaço criado para mulheres intensas que querem <span className="font-bold">recomendações que tocam</span> e <span className="font-bold">amizades que entendem de verdade o surto emocional de cada episódio</span>.
-          </p>
-          <p className="text-lg md:text-xl mb-8 text-gray-700">
-            Aqui, você pode sentir sem medo e pertencer sem se explicar.
+            Oferta Especial de Hoje: 1º mês por R$19,90
           </p>
           
           <a href="https://pay.kiwify.com.br/58gF7DK" className="cta-button inline-block mb-4">
-            🎯 QUERO ENTRAR NO CLUBE AGORA
+            🎯 QUERO ENTRAR AGORA NO CLUBE
           </a>
           
           <p className="text-gray-600 italic">
-            Acesso por apenas R$67 por 6 meses
+            R$27/mês nos próximos meses
             <br />
             <span className="text-dorama-purple font-medium">
-              Com garantia amorosa de 30 dias 💜
+              Com garantia de 30 dias. Sem julgamentos. Só acolhimento.💜
             </span>
           </p>
         </div>
