@@ -8,15 +8,12 @@ const Problema = () => {
         flex flex-col items-center text-center
         justify-start
         ">
-      <div className="section-container flex flex-col items-center text-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-dorama-purple text-center">
-          😔 Você também guarda tudo pra si porque ninguém entende?
+      <div className="section-container flex flex-col items-center text-center mb-16">
+        <h2 className="text-3xl md:text-4xl font-bold text-dorama-purple text-center mb-6">
+          😔 Você se apega aos personagens, fica com eles na cabeça por dias...E escuta coisas como:
         </h2>
   
         <div className="max-w-3xl mx-auto space-y-6 text-lg text-gray-700">
-          <p>
-            Você se apega aos personagens, fica com eles na cabeça por dias...E escuta coisas como:
-          </p>
           
           <div className="bg-dorama-soft-bg rounded-2xl p-6 shadow-sm border border-dorama-light-purple/20">
             <p className="font-medium mb-4 text-dorama-purple">Talvez você já tenha ouvido coisas como:</p>
@@ -32,14 +29,14 @@ const Problema = () => {
           </div>
           
           <p>
-            Você sabe que não é.É conforto. É rotina. É um lugar onde você se sente bem.
+            Você sabe que não. É conforto, é rotina, é um lugar onde você se sente bem.
           </p>
           
           <div className="text-center py-8">
             <h3 className="text-2xl font-bold mb-4">
               E se existisse um lugar onde isso fosse NORMAL?
             </h3>
-            <p>EEsse lugar existe. E você pode entrar agora.</p>
+            <p>Esse lugar existe. E você pode entrar agora.</p>
             <p className="text-3xl md:text-4xl font-bold text-dorama-purple mt-4 animate-heartbeat">
               💌 Clube das Dorameiras
             </p>

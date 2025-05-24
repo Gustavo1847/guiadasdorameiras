@@ -53,7 +53,7 @@ const Offer = () => {
                 </li>
                 <li className="flex items-center">
                   <span className="w-8 h-8 rounded-full bg-dorama-pink text-white flex items-center justify-center mr-3">📖</span>
-                  <span className="text-gray-700">Guia das Dorameiras +50 indicações</span>
+                  <span className="text-gray-700">Guia das Dorameiras - Ebook com +50 indicações</span>
                 </li>
               </ul>
             </div>
@@ -62,7 +62,7 @@ const Offer = () => {
           <div className="bg-gradient-to-r from-dorama-purple to-dorama-pink rounded-3xl shadow-xl p-8 md:p-12 text-center text-white mb-16">
 
             <p className="text-4xl font-bold mt-10 mb-8">🎁 Oferta do dia</p>
-            <p className="text-xl mb-2"><s>💰 De R$37</s></p>
+            <p className="text-xl mb-2"><s>💰 De R$27</s></p>
             <p className="text-2xl font-medium mb-6">Por R$17 no 1˚ mês</p>
 
             <p className="text-xl font-bold">Assinatura recorrente -<span className="opacity-80"> R$27</span></p>

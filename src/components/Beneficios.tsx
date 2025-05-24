@@ -1,18 +1,14 @@
 import React from 'react';
 const Beneficios = () => {
-  return <section id="beneficios" className="section--spacing bg-gradient-to-b from-white to-dorama-soft-bg scroll-mt-4">
-      <div className="section-container">
+  return <section id="beneficios" className="section--spacing bg-gradient-to-b from-white to-dorama-soft-bg scroll-mt-18">
+      <div className="section-container mt-12">
         <div className="max-w-4xl mx-auto text-center mb-6">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-dorama-purple">
             📬 O que é o Clube das Dorameiras?
           </h2>
-          <p className="text-xl text-gray-700">
-            Um grupo seguro, leve e acolhedor pra quem ama doramas.
-          </p>
         </div>
         
         <div className="max-w-4xl mx-auto mb-6">
-          <h3 className="text-2xl font-bold mb-6 text-center">Você vai ter acesso a:</h3>
           
           <div className="grid md:grid-cols-2 gap-6">
             <div className="feature-card">
@@ -25,7 +21,7 @@ const Beneficios = () => {
             <div className="feature-card">
               <h4 className="text-xl font-bold text-dorama-purple mb-2">📺 Indicações semanais </h4>
               <p className="text-gray-700">
-                Nada aleatório. Só o que vai te abraçar por dentro.
+                Nada aleatório. Só refúgio emocional.
               </p>
             </div>
             
