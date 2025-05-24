@@ -17,7 +17,7 @@ const Header = () => {
           <li><a href="#sobre" className="text-white hover:text-dorama-purple transition-colors">Sobre</a></li>
         </ul>
         <a
-          href="https://pay.kiwify.com.br/Y54zk9U"
+          href="https://pay.kiwify.com.br/iElB84z"
           className="cta-button whitespace-nowrap ml-4"
         >
           Quero Entrar

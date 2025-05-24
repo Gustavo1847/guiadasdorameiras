@@ -18,7 +18,7 @@ const Footer = () => {
               © {new Date().getFullYear()} Clube das Dorameiras. Todos os direitos reservados.
             </p>
             <div className="flex space-x-4">
-              <a href="https://www.instagram.com/guiadasdorameiras/" className="text-white hover:text-dorama-light-pink transition-colors">
+              <a href="https://www.instagram.com/clubedasdorameirasbr" className="text-white hover:text-dorama-light-pink transition-colors">
                 Instagram
               </a>
               <a href="https://wa.me/5583993559063" className="text-white hover:text-dorama-light-pink transition-colors">

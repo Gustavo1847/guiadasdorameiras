@@ -44,7 +44,7 @@ const Testimonials = () => {
           <p className="text-xl font-medium text-gray-700 mb-6">
             Você também pode viver isso.
           </p>
-          <a href="https://pay.kiwify.com.br/Y54zk9U" className="cta-button inline-block">
+          <a href="https://pay.kiwify.com.br/iElB84z" className="cta-button inline-block">
             🎯 QUERO PARTICIPAR
           </a>
         </div>

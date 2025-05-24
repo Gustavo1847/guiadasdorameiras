@@ -30,7 +30,7 @@ const Home = () => {
             Oferta Especial de Hoje: 1º mês por R$19,90
           </p>
 
-          <a href="https://pay.kiwify.com.br/Y54zk9U" className="cta-button inline-block mt-4">
+          <a href="https://pay.kiwify.com.br/iElB84z" className="cta-button inline-block mt-4">
             🎯 QUERO ENTRAR AGORA NO CLUBE
           </a>
 

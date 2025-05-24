@@ -71,7 +71,7 @@ const Beneficios = () => {
             </li>
           </ul>
           
-          <a href="https://pay.kiwify.com.br/Y54zk9U" className="cta-button inline-block">
+          <a href="https://pay.kiwify.com.br/iElB84z" className="cta-button inline-block">
             🎯 QUERO PARTICIPAR AGORA
           </a>
         </div>

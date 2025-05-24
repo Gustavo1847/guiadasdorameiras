@@ -18,7 +18,7 @@ const FinalCta = () => {
             </p>
           </div>
           
-          <a href="https://pay.kiwify.com.br/Y54zk9U" className="cta-button inline-block text-xl">
+          <a href="https://pay.kiwify.com.br/iElB84z" className="cta-button inline-block text-xl">
             💜 SIM! EU QUERO ENTRAR AGORA NO CLUBE DAS DORAMEIRAS
           </a>
         </div>
