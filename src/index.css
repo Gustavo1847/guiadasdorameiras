@@ -6,7 +6,12 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    scroll-padding-top: 4rem; /* ajuste pro tamanho da sua header */
+  }
   :root {
+    scroll-behavior: smooth;
+    
     --background: 272 100% 99%;
     --foreground: 280 10% 20%;
 
@@ -58,17 +63,93 @@
   }
 
   h1, h2, h3, h4, h5, h6 {
-    @apply font-display font-bold;
+    @apply m-0 font-display font-bold;
+  }
+
+  /* opcional: remove margin default de parágrafos também */
+  p {
+    @apply m-0;
   }
 }
 
 @layer components {
+  #beneficios::before {
+    content: "";
+    display: block;
+    height: 0;
+    margin-top: 0;        /* sem “puxão” */
+    visibility: hidden;
+  }
+  
+  @media (min-width: 768px) {
+    #beneficios::before {
+      margin-top: -6rem;   /* “puxa” 6rem pra cima ao rolar */
+    }
+  }
+
+  /* home base */
+  .home {
+    @apply
+      relative
+      min-h-screen
+      flex flex-col items-center text-center
+      justify-center
+      pt-0
+      bg-gradient-to-b from-dorama-soft-bg to-white
+  }
+  /* Quando a altura for suficientemente grande, centraliza verticalmente */
+  @media (min-height: 700px) {
+    .home {
+      @apply justify-start;
+    }
+  }
+
+  /* esconde sempre por padrão */
+  .home-arrow {
+    @apply hidden;
+  }
+  /* só mostra quando tela for larga >=768px e alta >=700px */
+  @media (min-width: 768px) and (min-height: 700px) {
+    .home-arrow {
+      @apply absolute bottom-24 left-1/2 transform -translate-x-1/2 flex;
+    }
+  }
+
+  .problema-arrow {
+    @apply hidden;
+  }
+  /* só mostra quando tela for larga >=768px e alta >=700px */
+  @media (min-width: 768px) {
+    .problema-arrow {
+      @apply flex;
+    }
+  }
+
+  .problema {
+    @apply relative min-h-screen flex items-center justify-start bg-white;
+  }
+  @media (min-height: 700px) {
+    .problema {
+      @apply justify-start;
+    }
+  }
+
+  /* Container interno — só largura e padding horizontal */
+  .home-container {
+    @apply max-w-4xl w-full mx-auto px-4 flex flex-col items-center gap-y-6 md:gap-y-8 lg:gap-y-10;
+  }
+
   .cta-button {
     @apply bg-dorama-purple hover:bg-dorama-dark-purple text-white font-bold py-4 px-8 rounded-full shadow-lg transition-all duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-dorama-light-purple/50;
   }
   
   .section-container {
-    @apply max-w-6xl mx-auto px-4 py-16 md:py-24;
+    @apply max-w-6xl mx-auto px-4;       /* só largura e padding horizontal */
+  }
+
+  /* vertical padding passa a ser definido individualmente em cada section: */
+  .section--spacing {
+    @apply py-16 md:py-24;
   }
   
   .quote-box {

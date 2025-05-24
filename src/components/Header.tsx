@@ -3,36 +3,28 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <header className="bg-gradient-to-r from-dorama-purple to-dorama-pink py-4 sticky top-0 z-50">
-      <div className="container mx-auto flex items-center justify-between px-4">
-        <div className="flex items-center">
-          <img src="/favicon-white.png" alt="Clube das Dorameiras" className="w-5 mr-2" />
+    <header className="bg-gradient-to-r from-dorama-purple to-dorama-pink py-2 sticky top-0 inset-x-0 z-50">
+      <nav className="max-w-6xl mx-auto flex items-center justify-between px-4">
+        <div className="logo inline-flex items-center"><img src="/favicon-white.png" alt="Clube das Dorameiras" className="w-5 mr-2" />
           <span className="text-white text-2xl font-display font-bold">
             Clube das Dorameiras
           </span>
         </div>
-        <div className="hidden md:flex space-x-6">
-          <a href="#beneficios" className="text-white hover:text-dorama-light-pink transition-colors">
-            Benefícios
-          </a>
-          <a href="#depoimentos" className="text-white hover:text-dorama-light-pink transition-colors">
-            Depoimentos
-          </a>
-          <a href="#oferta" className="text-white hover:text-dorama-light-pink transition-colors">
-            Oferta
-          </a>
-          <a href="#sobre" className="text-white hover:text-dorama-light-pink transition-colors">
-            Sobre
-          </a>
-        </div>
-        <a 
-          href="https://pay.kiwify.com.br/58gF7DK" 
-          className="bg-white text-dorama-purple px-4 py-2 rounded-full font-medium hover:bg-opacity-90 transition-all duration-200 transform hover:scale-105"
+        <ul className="hidden md:flex space-x-6">
+          <li><a href="#beneficios" className="text-white hover:text-dorama-purple transition-colors">Benefícios</a></li>
+          <li><a href="#depoimentos" className="text-white hover:text-dorama-purple transition-colors">Depoimentos</a></li>
+          <li><a href="#oferta" className="text-white hover:text-dorama-purple transition-colors">Oferta</a></li>
+          <li><a href="#sobre" className="text-white hover:text-dorama-purple transition-colors">Sobre</a></li>
+        </ul>
+        <a
+          href="https://pay.kiwify.com.br/…"
+          className="cta-button whitespace-nowrap ml-4"
         >
           Quero Entrar
         </a>
-      </div>
+      </nav>
     </header>
+
   );
 };
 

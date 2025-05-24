@@ -1,14 +1,14 @@
 import React from 'react';
 const About = () => {
-  return <section id="sobre" className="bg-dorama-soft-bg ">
+  return <section id="sobre" className="section--spacing bg-dorama-soft-bg ">
       <div className="section-container">
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-10">
             <h2 className="text-3xl md:text-4xl font-bold mb-2 text-dorama-purple">
-              👩‍💻 Quem é Bruna Bohn?
+              👩‍💻 Quem criou o Clube?
             </h2>
             <p className="text-lg text-gray-700">
-              Social media por profissão. Dorameira por paixão.
+              Bruna Bohn, social media e dorameira de coração.
             </p>
           </div>
           
@@ -26,22 +26,22 @@ const About = () => {
               
               <div className="md:w-2/3">
                 <p className="text-gray-700 mb-6">
-                  Bruna criou o Clube das Dorameiras após anos sentindo que precisava esconder seu lado emocional para ser levada a sério.
+                  Cansou de esconder o que sentia, e decidiu criar o espaço que gostaria de ter tido:
                 </p>
                 
                 <blockquote className="border-l-4 border-dorama-pink pl-4 italic text-gray-700 mb-4">
-                  "E se isso que me toca tanto, também puder tocar outras mulheres?"
+                  Leve, acolhedor e verdadeiro.
                 </blockquote>
                 
                 <p className="text-gray-700">
-                  Hoje, ela guia outras mulheres intensas a viverem doramas com liberdade, conexão e acolhimento.
+                  Hoje, ela te convida pra viver o dorama com companhia e conexão.
                 </p>
               </div>
             </div>
           </div>
           
           <div className="text-center">
-            <a href="https://pay.kiwify.com.br/58gF7DK" className="cta-button inline-block">
+            <a href="https://pay.kiwify.com.br/Y54zk9U" className="cta-button inline-block">
               🎯 QUERO FAZER PARTE DISSO
             </a>
           </div>
